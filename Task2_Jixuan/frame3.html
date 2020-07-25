@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+body {
+  background: url(images/cc.jpeg);
+}
+h1 {
+	width: 600px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-variant-ligatures: normal;
+	font-size: 3rem;
+	text-align: center;
+	color: #17b3e3;
+}
+
+ol {
+  background: #ff9900;
+  padding: 20px;
+}
+
+ul {
+  background: #3399cc;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5aa;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5cc;
+  margin: 5px;
+}
+</style>
+
+</head>
+<body>
+<h1>Ordered & Unordered List</h1>
+
+<ol type="A">
+  <li>What I need to put in the first item</li>
+  <li>What I need to put in the second item  <!-- closing </li> tag not here! -->
+    <ul>
+      <li>second item first subitem</li>
+      <li>second item second subitem</li>
+      <li>second item third subitem</li>
+    </ul>
+  </li>            <!-- Here's the closing </li> tag -->
+  <li>What I need to put in the third item</li>
+</ol>
+
+</body>
+</html>
